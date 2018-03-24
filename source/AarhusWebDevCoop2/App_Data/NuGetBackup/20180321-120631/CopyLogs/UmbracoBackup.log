@@ -1,0 +1,26 @@
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : Wednesday, March 21, 2018 12:06:32
+   Source : C:\Users\Lukas\source\repos\AarhusWebDevCoop2\AarhusWebDevCoop2\Umbraco\
+     Dest : C:\Users\Lukas\source\repos\AarhusWebDevCoop2\AarhusWebDevCoop2\App_Data\NuGetBackup\20180321-120631\Umbraco\
+
+    Files : *.*
+	    
+  Options : *.* /S /E /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	                   0	C:\Users\Lukas\source\repos\AarhusWebDevCoop2\AarhusWebDevCoop2\Umbraco\
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :         1         0         1         0         0         0
+   Files :         0         0         0         0         0         0
+   Bytes :         0         0         0         0         0         0
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+   Ended : Wednesday, March 21, 2018 12:06:32
+

@@ -1,0 +1,31 @@
+﻿@inherits Umbraco.Web.Macros.PartialViewMacroPage
+
+@{
+	var selection = Umbraco.TypedContentAtRoot()
+   .First()
+   .Children()
+   .Where(x => x.DocumentTypeAlias == "projectsOverview")
+   .First()
+   .Children()
+   .Where(x => x.HasValue("projectStatus") && Umbraco.GetPreValueAsString(x.GetPropertyValue<int>("projectStatus")) == "Completed")
+   .OrderBy(x => x.CreateDate )
+   .Take(5);
+}
+ @foreach (var item in selection)
+                { var projectContent = item.GetPropertyValue("projectDescription").ToString();
+                    if (item.DocumentTypeAlias == "projectItem")
+                    {
+            <div>
+                <div>
+                    <div>
+                        <h4>
+                            <a href="#">@item.Name</a>
+                        </h4>
+                        <p class="card-text"> @Umbraco.Truncate(projectContent, 100) <a href="@item.Url">Read More..</a>></p>
+                    </div>
+                </div>
+            </div>
+        }
+
+
+    }
