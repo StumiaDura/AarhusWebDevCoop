@@ -136,8 +136,8 @@ C:\Users\Lukas\source\repos\AarhusWebDevCoop2\AarhusWebDevCoop2\obj\Debug\Aarhus
 C:\Users\Lukas\source\repos\AarhusWebDevCoop2\AarhusWebDevCoop2\obj\Debug\AarhusWebDevCoop2.dll
 C:\Users\Lukas\source\repos\AarhusWebDevCoop2\AarhusWebDevCoop2\obj\Debug\AarhusWebDevCoop2.pdb
 C:\Users\Lukas\source\repos\AarhusWebDevCoop2\AarhusWebDevCoop2\obj\Debug\AarhusWebDevCoop2.csprojResolveAssemblyReference.cache
-C:\GIT_ROOT\AarhusWebDevCoop\source\AarhusWebDevCoop2\bin\ApplicationInsights.config
 C:\GIT_ROOT\AarhusWebDevCoop\source\AarhusWebDevCoop2\bin\AutoMapper.Net4.dll
+C:\GIT_ROOT\AarhusWebDevCoop\source\AarhusWebDevCoop2\bin\ApplicationInsights.config
 C:\GIT_ROOT\AarhusWebDevCoop\source\AarhusWebDevCoop2\bin\AarhusWebDevCoop2.dll.config
 C:\GIT_ROOT\AarhusWebDevCoop\source\AarhusWebDevCoop2\bin\AarhusWebDevCoop2.dll
 C:\GIT_ROOT\AarhusWebDevCoop\source\AarhusWebDevCoop2\bin\AarhusWebDevCoop2.pdb
@@ -270,7 +270,7 @@ C:\GIT_ROOT\AarhusWebDevCoop\source\AarhusWebDevCoop2\bin\Microsoft.AI.Dependenc
 C:\GIT_ROOT\AarhusWebDevCoop\source\AarhusWebDevCoop2\bin\Microsoft.AI.ServerTelemetryChannel.xml
 C:\GIT_ROOT\AarhusWebDevCoop\source\AarhusWebDevCoop2\bin\Microsoft.AI.WindowsServer.xml
 C:\GIT_ROOT\AarhusWebDevCoop\source\AarhusWebDevCoop2\bin\Microsoft.AI.Web.xml
-C:\GIT_ROOT\AarhusWebDevCoop\source\AarhusWebDevCoop2\obj\Debug\AarhusWebDevCoop2.csprojResolveAssemblyReference.cache
 C:\GIT_ROOT\AarhusWebDevCoop\source\AarhusWebDevCoop2\obj\Debug\AarhusWebDevCoop2.csproj.CoreCompileInputs.cache
 C:\GIT_ROOT\AarhusWebDevCoop\source\AarhusWebDevCoop2\obj\Debug\AarhusWebDevCoop2.dll
 C:\GIT_ROOT\AarhusWebDevCoop\source\AarhusWebDevCoop2\obj\Debug\AarhusWebDevCoop2.pdb
+C:\GIT_ROOT\AarhusWebDevCoop\source\AarhusWebDevCoop2\obj\Debug\AarhusWebDevCoop2.csprojResolveAssemblyReference.cache

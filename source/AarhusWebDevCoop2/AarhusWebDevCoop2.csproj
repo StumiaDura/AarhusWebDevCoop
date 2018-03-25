@@ -560,6 +560,7 @@
     <Content Include="Views\Sitemap.cshtml" />
     <Content Include="Views\TextPage.cshtml" />
     <Content Include="Views\Login.cshtml" />
+    <Content Include="Views\Members.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />
