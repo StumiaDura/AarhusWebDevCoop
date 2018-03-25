@@ -559,7 +559,6 @@
     <Content Include="Views\ProjectsOverview.cshtml" />
     <Content Include="Views\Sitemap.cshtml" />
     <Content Include="Views\TextPage.cshtml" />
-    <Content Include="Views\Members.cshtml" />
     <Content Include="Views\Login.cshtml" />
   </ItemGroup>
   <ItemGroup>
