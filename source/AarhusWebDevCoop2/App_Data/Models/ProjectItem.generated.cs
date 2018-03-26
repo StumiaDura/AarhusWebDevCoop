@@ -55,6 +55,15 @@ namespace Umbraco.Web.PublishedContentModels
 		}
 
 		///<summary>
+		/// Project Preview
+		///</summary>
+		[ImplementPropertyType("projectPreview")]
+		public string ProjectPreview
+		{
+			get { return this.GetPropertyValue<string>("projectPreview"); }
+		}
+
+		///<summary>
 		/// Project Status: This is the project status
 		///</summary>
 		[ImplementPropertyType("projectStatus")]

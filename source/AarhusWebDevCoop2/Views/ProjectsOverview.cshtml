@@ -3,7 +3,20 @@
 @{
 	Layout = "Master.cshtml";
 }
+<header class="masthead-post" style="background-image: url('../Media/writing-great-blog-post.jpg');">
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-md-10 mx-auto">
+                <div class="site-heading">
+                    <h1>@Umbraco.Field("projectTitle")</h1>
+                    <span class="subheading">@Umbraco.Field("projectPreview")</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
 
-			@Umbraco.Field("projectsTitle")
-			@Umbraco.Field("projectsBodyText")
-			@Umbraco.RenderMacro("listArticles")
+
+
+        @Umbraco.RenderMacro("listProjects")

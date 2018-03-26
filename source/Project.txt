@@ -1,0 +1,14 @@
+Login to backoffice
+Login: lukas.klinga1994@gmail.com
+Password: laidinis69
+
+Active member
+Login: activemember@gmail.com
+Password: H(A-W^uA=-
+
+Guest member
+Login: guestmember@gmail.com
+Password: YGjh=D4gM0
+
+Git: https://github.com/StumiaDura/AarhusWebDevCoop
+

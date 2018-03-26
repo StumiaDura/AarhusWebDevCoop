@@ -55,6 +55,15 @@ namespace Umbraco.Web.PublishedContentModels
 		}
 
 		///<summary>
+		/// Article Preview
+		///</summary>
+		[ImplementPropertyType("articlePreview")]
+		public string ArticlePreview
+		{
+			get { return this.GetPropertyValue<string>("articlePreview"); }
+		}
+
+		///<summary>
 		/// Article Title: This is the Article Title
 		///</summary>
 		[ImplementPropertyType("articleTitle")]

@@ -1,7 +1,30 @@
 ﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
 @{
-    Layout = "Master.cshtml";
+	Layout = "Master.cshtml";
 }
 
-@* Calls the LoginFormpartial view macro*@
-@Html.Partial("LoginForm")
+@* the fun starts here *@
+
+<!-- Page Header -->
+    <header class="masthead" style="background-image: url('img/home-bg.jpg')">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+              <div class="page-heading">
+              <h1>Login</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    
+    
+    @if (!Members.GetCurrentLoginStatus().IsLoggedIn) 
+    {
+        @Html.Partial("Login")
+    }
+    else 
+    {
+        @Html.Partial("Logout")
+    }
