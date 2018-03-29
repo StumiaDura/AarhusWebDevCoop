@@ -1,4 +1,8 @@
-﻿using System.Web.Mvc;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.Mvc;
 using Umbraco.Web.Mvc;
 using Umbraco.Core.Models;
 using AarhusWebDevCoop2.ViewModels;
@@ -30,7 +34,7 @@ namespace AarhusWebDevCoop2.Controllers
                 message.Subject = model.Subject;
                 message.From = new MailAddress(model.Email, model.Name);
                 message.Body = model.Message;
-                // <--- no need to send email since already saves as document
+                // <--- already saves as document
                 //using (SmtpClient smtp = new SmtpClient())
                 //{
                 //    smtp.DeliveryMethod = SmtpDeliveryMethod.Network;
